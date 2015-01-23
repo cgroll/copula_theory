@@ -1,0 +1,5 @@
+HTML_OUTPUT := -nodoc -dl
+BIB_STYLE := -s alpha
+SKIP_FIELDS := -noabstract -nokeywords
+
+gauss_refs.html :
