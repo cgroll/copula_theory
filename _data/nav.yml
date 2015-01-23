@@ -1,0 +1,17 @@
+- title: "Home"
+  href: "/index.html"
+
+- title: "Parametric Copulas"
+  href: "/ParamPCs/Clayton.html"
+  # subcategories:
+  #   - subtitle: "Clayton copula"
+  #     subhref: "/ParamPCs/Clayton.html"
+  #   - subtitle: "Gumbel copula"
+  #     subhref: "/ParamPCs/Gumbel.html"
+ 
+- title: "Clayton copula"
+  href: "/ParamPCs/Clayton.html"
+- title: "Gumbel copula"
+  href: "/ParamPCs/Gumbel.html"
+- title: "Modified copulas"
+  href: "/ModPCs/index.html"
