@@ -8,13 +8,15 @@ Welcome to my notes on copula theory.
 ------------------------------------------
 
 * [Gaussian copula](param_cops/Gaussian.html) documentation
-* [Clayton copula](param_cops.html) documentation
+* [Clayton copula](param_cops/Clayton.html) documentation
 * [Gumbel copula](param_cops/Gumbel.html) documentation
 
 [Copula modifications](cop_modifications/index.html)
 --------------------
 
 ## General properties
+
+Should be outsourced!
 
 ### H-volume
 

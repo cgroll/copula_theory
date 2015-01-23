@@ -27,7 +27,7 @@
     <!-- check to see if the data file has a submenu, and if so display it -->
     {% if dale.subcategories != null %}
     <li>
-      <a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
+      <a href="/copula_theory{{ dale.href }}">{{ dale.title }}</a>
     </li>
     <!-- <ul class="dropdown-menu">  -->
     <!-- {% for subcategory in dale.subcategories %} -->
@@ -39,7 +39,7 @@
     <!-- <!— display the top level navigation for items that don’t have a submenu -\-> -->
 
     <li>
-      <a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
+      <a href="/copula_theory{{ dale.href }}">{{ dale.title }}</a>
       {% endif %}
     </li>
     {% endfor %}
@@ -49,16 +49,16 @@
     </nav>
 
       
-  <a href="https://github.com/JuliaFinMetriX/Copulas.jl/archive/master.zip" class="button">
+  <a href="{{ site.githuburl}}/archive/master.zip" class="button">
     <small>Download</small>
     .zip file
   </a>
-  <a href="https://github.com/JuliaFinMetriX/Copulas.jl/archive/master.tar.gz" class="button">
+  <a href="{{ site.githuburl}}/archive/master.tar.gz" class="button">
     <small>Download</small>
     .tar.gz file
   </a>
   
-  <p class="repo-owner"><a href="https://github.com/JuliaFinMetriX/Copulas.jl">Copulas.jl</a> is maintained by <a href="https://github.com/cgroll">cgroll</a>.</p>
+  <p class="repo-owner">Maintained by <a href="https://github.com/cgroll">cgroll</a>.</p>
   
   <p class="repo-owner"><a href="https://github.com/jasonlong/architect-theme">architect-theme</a> is maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</p>
   

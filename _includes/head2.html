@@ -3,9 +3,12 @@
   <body>
 
 
+    <!-- the main index may not be written with relative paths only,
+    because these paths will turn out to be different for each
+    individual page. hence, it needs to be relative to some site.url -->
     <header>
       <div class="inner">
-        <a href="./index.html"><h1>Copula theory</h1></a>
+        <a href="{{ site.url }}/index.html"><h1>Copula theory</h1></a>
         <h2>Notes on copula theory</h2>
         <a href="https://github.com/cgroll/copula_theory" class="button"><small>View project on</small> GitHub</a>
       </div>

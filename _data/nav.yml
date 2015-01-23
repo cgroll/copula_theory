@@ -2,7 +2,7 @@
   href: "/index.html"
 
 - title: "Parametric Copulas"
-  href: "/ParamPCs/Clayton.html"
+  href: "/param_cops/Clayton.html"
   # subcategories:
   #   - subtitle: "Clayton copula"
   #     subhref: "/ParamPCs/Clayton.html"
@@ -10,8 +10,10 @@
   #     subhref: "/ParamPCs/Gumbel.html"
  
 - title: "Clayton copula"
-  href: "/ParamPCs/Clayton.html"
+  href: "/param_cops/Clayton.html"
 - title: "Gumbel copula"
-  href: "/ParamPCs/Gumbel.html"
+  href: "/param_cops/Gumbel.html"
 - title: "Modified copulas"
-  href: "/ModPCs/index.html"
+  href: "/cop_modifications/index.html"
+- title: "cgroll"
+  href: "/../index.html"
