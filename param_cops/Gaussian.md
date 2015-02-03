@@ -8,8 +8,10 @@ Gaussian copula
 
 Parameter restrictions: \\(-1<\rho<1\\)
 
-cdf [[Joe14]](#refs)
+cdf 
 ---
+
+Following [[Joe14]](#refs):
 
 $$C(u_{1},u_{2})=\Phi_{2}\left( \Phi^{-1}(u_{1}), \Phi^{-1}(u_{2})\right),$$
 

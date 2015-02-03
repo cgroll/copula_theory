@@ -12,7 +12,7 @@ Welcome to my notes on copula theory.
 * [Gaussian copula](param_cops/Gaussian.html) documentation
 * [Clayton copula](param_cops/Clayton.html) documentation
 * [Gumbel copula](param_cops/Gumbel.html) documentation
-* [Asymmetric FGM copula](Asym_FGM.html) documentation
+* [Asymmetric FGM copula](param_cops/Asym_FGM.html) documentation
 
 [Copula modifications](cop_modifications/index.html)
 --------------------
