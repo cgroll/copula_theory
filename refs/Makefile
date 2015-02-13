@@ -1,5 +1,5 @@
 HTML_OUTPUT := -nodoc -dl
-BIB_STYLE := -s alpha
+BIB_STYLE := -s apalike
 SKIP_FIELDS := -noabstract -nokeywords -noheader
 ALL_FLAGS := ${HTML_OUTPUT} ${SKIP_FIELDS} ${BIB_STYLE}
 
@@ -19,3 +19,6 @@ all: ${HTML_FULL_NAMES}
 # run bibtex2html from html directory - otherwise links to bib files were wrong 
 html_refs/%.html: page_keys/%.txt refs.bib
 	cd ./${HTML_DIR} && bibtex2html ${ALL_FLAGS} -o $(*F) -citefile ../$< ../refs.bib
+
+clean:
+	rm ${HTML_FULL_NAMES}
