@@ -23,3 +23,6 @@ Welcome to my notes on copula theory.
 
 [Graph theory](graph_theory/graph_intro.html)
 --------------------------------------------
+
+[Conditioning Trees](rvines/condTrees.html)
+-------------------------------------------
