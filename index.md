@@ -26,3 +26,6 @@ Welcome to my notes on copula theory.
 
 [Conditioning Trees](rvines/condTrees.html)
 -------------------------------------------
+
+[Glossary](glossary.html)
+-------------------------
