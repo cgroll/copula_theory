@@ -82,14 +82,3 @@ References<a name="refs"></a>
 
 <iframe src="../refs/html_refs/rvines.html" width="600" height="200"></iframe>
 
-# Visualization
-
-There are several ways of visualizing a vine copula density
-decomposition:
-
-- one rooted tree per variable (unique representation)
-- one directed tree per layer (copula vine trees)
-- a graph:
-  - fully connected, if all conditional links are shown
-  - partly connected, if only first layers are shown
-  - visualization in a single graph is highly non-unique

@@ -99,6 +99,28 @@ With $$v_{i},v_{j}\in V$$:
   $$v_{j}$$ to a leaf node are called descendants of $$v_{j}$$
 - **leaf** node: a vertex $$v$$ without children
 
+# R-Vines: graph theoretic perspective
+
+## Graph theoretic perspectives
+
+An R-Vine can be fully characterized in several ways:
+
+- a set of rooted trees:
+  - one conditioning tree per variable
+- a set of trees:
+  - original vine representation
+  - one tree per layer
+  - edges become vertices in next layer
+
+## Visualization
+
+Furthermore, it can be perceived and visualized in a number of ways:
+
+- a set of conditioning trees (unique)
+- original vine representation (unique)
+- a graph of differing complexity: (non-unique representation!)
+  - fully connected: all conditional links are shown
+  - partly connected: only first layers are shown
 
 References<a name="refs"></a>
 ---------

@@ -27,7 +27,7 @@ the header:
 
     <a name="refs"></a>
 
-Add the respective place where the citation should appear, add the
+At the respective place where the citation should appear, add the
 following internal link (of course, with the respective citation key):
 
     [[Joe14]](#refs).
