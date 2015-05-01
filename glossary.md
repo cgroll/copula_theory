@@ -24,8 +24,7 @@ layout: default
 
 ## Mathematical notations
 - $$I$$: unit interval
-- $$F^{I}$$: cumulative distribution function with domain $$I$$
-- $$F^{I}_{2\vert 1}$$:
+- $$ \overline{F}_{2\vert 1}$$:
 	- conditional *cdf* with domain $$I$$
 	- frequently denotes the conditional distribution of probability
      integral transforms 
@@ -33,4 +32,5 @@ layout: default
 ## Dimensions
 - $$d$$: dimension of random vector $$\mathbf{X} =(X_{1},\ldots,
   X_{d})$$
+- $$N$$: $$d+d_{S}$$ dimension of all variables in vine
 - $$T$$: number of time series sample observations
