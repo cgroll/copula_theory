@@ -112,3 +112,46 @@ f_{i+1 \vert 1,...,i}(x_{i+1} \vert x_{1},\ldots,x_{i})
 Thereby, we define:
 
 $$u_{i \vert 1,\ldots,i-1}:= F_{i \vert 1,\ldots,i-1}(x_{i} \vert x_{1},\ldots,x_{i-1})$$
+
+
+## Emerging copula example: two-dimensional conditioning set
+
+$$\begin{aligned}
+c_{34}&=\int_{0}^{1}\int_{0}^{1}c_{1234}(u_{1},u_{2},u_{3},u_{4})
+	\text{d}u_{1}\text{d}u_{2}\\
+&=\int_{0}^{1}\int_{0}^{1} \overline{f}_{34 \vert 12}(u_{3},u_{4}
+\vert u_{1},u_{2})
+	c_{12}(u_{1},u_{2})
+	\text{d}u_{1}\text{d}u_{2}\\
+&=\int_{0}^{1}\int_{0}^{1} \overline{f}_{4 \vert 123}(u_{4} \vert
+u_{1},u_{2},u_{3})
+	\overline{f}_{3 \vert 12}(u_{3} \vert u_{1},u_{2})c_{12}(u_{1},u_{2})
+	\text{d}u_{1}\text{d}u_{2}\\
+&=\int_{0}^{1}\int_{0}^{1}c_{24}(u_{2},u_{4})
+	\ c_{14;2}(u_{1 \vert 2}, u_{4 \vert 2})\ c_{34;12}(u_{3 \vert 12}, u_{4\vert 12}) c_{13}(u_{1}, u_{2})\
+c_{23;1}(u_{2 \vert 1},u_{3 \vert  1})c_{12}(u_{1},u_{2})\text{d}u_{1}\text{d}u_{2}
+\end{aligned}$$
+
+because of
+
+
+$$\begin{aligned}
+f(x_{4} \vert x_{1},x_{2},x_{3})=&f(x_{4})\ c_{24}(F(x_{2}),F(x_{4}))
+	\ c_{14;2}(F(x_{1} \vert x_{2}), F(x_{4} \vert x_{2}))\\
+&\ c_{34;12}(F(x_{3} \vert x_{1}, x_{2}), F(x_{4} \vert x_{1},x_{2}))
+\end{aligned}$$
+
+$$\begin{aligned}
+\overline{f}(u_{4} \vert u_{1},u_{2},u_{3})=&c_{24}(u_{2},u_{4})
+	\ c_{14;2}(u_{1 \vert 2}, u_{4 \vert 2})\ c_{34;12}(u_{3 \vert 12}, u_{4\vert 12})
+\end{aligned}$$
+
+$$\begin{aligned}
+f(x_{3} \vert  x_{1},x_{2})&=f(x_{3})\ c_{13}(F(x_{1}), F(x_{2}))\
+c_{23;1}(F(x_{2} \vert x_{1}), F(x_{3} \vert  x_{1}))
+\end{aligned}$$
+
+$$\begin{aligned}
+\overline{f}(u_{3} \vert  u_{1},u_{2})&=c_{13}(u_{1}, u_{2})\
+c_{23;1}(u_{2 \vert 1},u_{3 \vert  1})
+\end{aligned}$$
