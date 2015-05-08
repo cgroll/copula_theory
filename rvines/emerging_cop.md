@@ -3,7 +3,7 @@ layout: default
 title: Emerging copula
 ---
 
-Conditional density: problem in three-dimensional vine
+## Conditional density through integration
 
 We can easily calculate:
 
@@ -11,10 +11,10 @@ $$c_{23 \vert 1}(u_{2},u_{3} \vert u_{1})$$
 
 Hence, for each value $$ u_{1}$$, we can calculate the likelihood of
 observing $$(u_{2},u_{3})$$. This way, we already know how several
-value of $$ u_{1}$$ compare to each other in terms of likelihood: some
-may be twice as likely as others. Still, we need to translate these
-likelihoods into a probability measure, so that we need to normalize
-the values:
+values of $$ u_{1}$$ compare to each other in terms of likelihood:
+some may be twice as likely as others. Still, we need to translate
+these likelihoods into a probability measure, so that we need to
+normalize the values:
 
 $$\begin{aligned}
 A&=\int_{0}^{1}c_{23 \vert 1}(u_{2},u_{3} ,\vert\ u_{1})\text{d}u_{1}\\
@@ -26,10 +26,9 @@ A&=\int_{0}^{1}c_{23 \vert 1}(u_{2},u_{3} ,\vert\ u_{1})\text{d}u_{1}\\
 Given $$A$$ we get:
 
 $$\begin{aligned}
-c_{1 \vert 23}(u_{1} \vert u_{2}, u_{3})&=
+\overline{f}_{1 ; 23}(u_{1} \vert u_{2}, u_{3})&=
 	\frac{c_{123}(u_{1},u_{2},u_{3})}{c_{23}(u_{2},u_{3})}\\
-&=\frac{c_{123}(u_{1},u_{2},u_{3})}{A}\\
-&=\frac{c_{23 \vert 1}(u_{2},u_{3} \vert u_{1}) \overline{f}_{1}(u_{1})}{A}
+&=\frac{c_{23 ; 1}(u_{2},u_{3} \vert u_{1}) \overline{f}_{1}(u_{1})}{A}
 \end{aligned}$$
 
 
